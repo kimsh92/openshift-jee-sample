@@ -43,11 +43,15 @@
               		  <warName>ROOT</warName>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>maven-resources-plugin</groupId>
-                <version>2.6</version>
-            </plugin>
         </plugins>
+        <pluginManagement>
+            <plugins>
+               <plugin>
+                 <groupId>maven-resources-plugin</groupId>
+                 <version>2.6</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
       </build>
     </profile>
   </profiles>
